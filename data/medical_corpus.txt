@@ -1,11 +1,22 @@
 # doc-analysis-v1/data/medical_corpus.txt
-Chemotherapy is the standard procedure to target rapidly dividing cancer cells in a malignant tumor.
-A new clinical trial is underway to test the efficacy of a novel drug compound against high blood pressure.
+A randomized, double-blind study evaluated the efficacy of a new beta-blocker drug for patients with chronic heart failure. The cardiac function improved significantly across the treatment group.
+Myocardial infarction, commonly known as a heart attack, occurs when blood flow to the heart muscle is blocked. Immediate angioplasty is often required.
+The physician prescribed aspirin and a statin regimen to lower the patient's cholesterol and risk of secondary cardiovascular events.
+Hypertension management involves a combination of lifestyle changes and ACE inhibitors to reduce blood pressure.
+The cardiologist recommended immediate stress testing and an ECG to assess the extent of the cardiac damage.
 Stenting is a common non-surgical intervention used to open blocked coronary arteries and improve blood flow.
-The phase 3 trial showed promising results for the drug, reducing mortality and severe adverse events in patients.
-Radiation therapy, often combined with surgery, aims to destroy remaining cancer cells and prevent recurrence.
-The primary symptom of this viral outbreak is a persistent, dry cough and fever, requiring immediate isolation.
-Beta-blockers and ACE inhibitors are frequently prescribed medications for managing chronic heart failure.
-Researchers are working on a new vaccine candidate to provide immunity against the latest influenza variant.
-The patient presented with chest pain and signs of myocardial infarction, requiring immediate cardiac catheterization.
+Chemotherapy agents target rapidly dividing cells, which is the hallmark of many types of cancer. This treatment often leads to significant side effects.
+The malignant tumor in the lung was successfully removed during a complex surgical procedure. Follow-up radiation therapy is recommended.
+Early detection of breast cancer through routine mammography screening remains a cornerstone of successful oncology treatment protocols.
 Understanding the tumor microenvironment is key to developing targeted immunological therapies for cancer.
+Biopsy results confirmed the presence of sarcoma, necessitating a multidisciplinary treatment approach involving surgery.
+Phase 3 clinical trials for the new drug involved thousands of healthy volunteers. The vaccine demonstrated a high safety profile and strong efficacy results.
+The FDA granted accelerated approval to the novel antibody drug after promising interim results from the human trial.
+Researchers are tracking patient outcomes in the long-term follow-up study to assess the sustained effects of the gene therapy.
+The trial included a placebo control group and focused on minimizing confounding variables to ensure the drug's true effect could be isolated.
+Rigorous pharmacokinetics studies track the absorption, distribution, metabolism, and excretion of a novel compound.
+The primary symptom of this viral outbreak is a persistent, dry cough and fever, requiring immediate isolation.
+Researchers are working on a new vaccine candidate to provide immunity against the latest influenza variant.
+The patient tested positive for the pathogen, a gram-negative bacteria, and was started on a broad-spectrum antibiotic regimen.
+Epidemiologists track the spread of contagious diseases to implement public health measures and prevent a pandemic.
+Isolation protocols are critical in hospital settings to prevent the transmission of highly infectious agents like MRSA.

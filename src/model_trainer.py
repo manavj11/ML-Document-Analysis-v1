@@ -92,7 +92,7 @@ if __name__ == "__main__":
     # 
     lda = LatentDirichletAllocation(
         n_components=N_TOPICS,
-        max_iter=5,
+        max_iter=15,
         learning_method='online',
         random_state=42
     )
@@ -106,10 +106,10 @@ if __name__ == "__main__":
     # Show document-topic distribution for the first document
     doc_topic_distribution = lda.transform(data_vectorized)
     print("\n--- Example Document-Topic Distribution ---")
-    print(f"Document 1: '{corpus[0]}'")
+    print(f"Document 1: '{corpus[6]}'")
     # Find the index of the topic with the highest probability
-    main_topic_idx = np.argmax(doc_topic_distribution[0])
-    main_topic_prob = doc_topic_distribution[0, main_topic_idx]
+    main_topic_idx = np.argmax(doc_topic_distribution[6])
+    main_topic_prob = doc_topic_distribution[6, main_topic_idx]
     
     print(f"The model assigns this document primarily to Topic {main_topic_idx + 1} with a weight of {main_topic_prob:.2f}.")
     print("---------------------------------------------")
