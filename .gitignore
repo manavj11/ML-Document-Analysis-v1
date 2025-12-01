@@ -1,0 +1,43 @@
+# --- General Operating System Files ---
+.DS_Store
+.cache
+.ipynb_checkpoints
+
+# --- Python Environment and Dependencies ---
+# Virtual environment files
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# --- Jupyter Notebook Artifacts ---
+# Strip notebook metadata output cells (optional, but keeps diffs clean)
+# *.ipynb
+
+# --- Machine Learning & Data Science Artifacts ---
+# NumPy / Pandas temporary files
+*.npy
+*.npz
+*.parquet
+*.feather
+
+# Model Checkpoints and Serialized Models (e.g., pickle files)
+# This is crucial! Never commit large model files.
+*.pkl
+*.joblib
+*.h5
+*.tf
+models/
+
+# --- Local Data Files ---
+# Ignore any automatically generated or sensitive data
+# The raw medical_corpus.txt is fine to commit since it's small and sample data.
+# However, if you generated a larger, cleaned version, you'd exclude it.
+data_output/

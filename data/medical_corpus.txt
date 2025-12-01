@@ -1,0 +1,11 @@
+# doc-analysis-v1/data/medical_corpus.txt
+Chemotherapy is the standard procedure to target rapidly dividing cancer cells in a malignant tumor.
+A new clinical trial is underway to test the efficacy of a novel drug compound against high blood pressure.
+Stenting is a common non-surgical intervention used to open blocked coronary arteries and improve blood flow.
+The phase 3 trial showed promising results for the drug, reducing mortality and severe adverse events in patients.
+Radiation therapy, often combined with surgery, aims to destroy remaining cancer cells and prevent recurrence.
+The primary symptom of this viral outbreak is a persistent, dry cough and fever, requiring immediate isolation.
+Beta-blockers and ACE inhibitors are frequently prescribed medications for managing chronic heart failure.
+Researchers are working on a new vaccine candidate to provide immunity against the latest influenza variant.
+The patient presented with chest pain and signs of myocardial infarction, requiring immediate cardiac catheterization.
+Understanding the tumor microenvironment is key to developing targeted immunological therapies for cancer.
