@@ -52,13 +52,13 @@ def display_topics(model, feature_names, no_top_words):
         # Manually infer a potential label based on keywords
         label = "Unknown"
         if "disease" in top_words:
-            label = "Infectious Disease" 
-        elif "cancer" in top_words:
-            label = "Oncology"
+            label = "Patient Concerns" 
+        elif "cancer" in top_words or "heart" in top_words:
+            label = "Oncology/Cardiology"
         elif "drug" in top_words:
             label = "Pharmacology/Trials"
         elif "therapy" in top_words:
-            label = "Treatement"
+            label = "Treatment"
 
         print(f"Topic {topic_idx + 1} ({label}): {' '.join(top_words)}")
 
@@ -109,13 +109,24 @@ if __name__ == "__main__":
     # 4. Interpretation
     display_topics(lda, feature_names, N_TOP_WORDS)
     
-    # Show document-topic distribution for the first document
+    # Show document-topic distribution for a user selectable document number
     doc_topic_distribution = lda.transform(data_vectorized)
-    print("\n--- Example Document-Topic Distribution ---")
-    print(f"Document 10: '{corpus[10]}'")
+    print("\n--- Document-Topic Distribution (Select Document by Index) ---")
+    # Prompt the user for an index (default to 10 if they hit enter)
+    while True:
+        try:
+            user_input = input(f"Enter document index between 0 and {len(corpus)-1} (default 10): ").strip()
+            doc_idx = 10 if user_input == "" else int(user_input)
+            if 0 <= doc_idx < len(corpus):
+                break
+            print(f"Index out of range. Please enter a number between 0 and {len(corpus)-1}.")
+        except ValueError:
+            print("Invalid input. Please enter an integer.")
+
+    print(f"Document {doc_idx}: '{corpus[doc_idx]}'")
     # Find the index of the topic with the highest probability
-    main_topic_idx = np.argmax(doc_topic_distribution[10])
-    main_topic_prob = doc_topic_distribution[10, main_topic_idx]
+    main_topic_idx = np.argmax(doc_topic_distribution[doc_idx])
+    main_topic_prob = doc_topic_distribution[doc_idx, main_topic_idx]
     
     print(f"The model assigns this document primarily to Topic {main_topic_idx + 1} with a weight of {main_topic_prob:.2f}.")
     print("---------------------------------------------")
