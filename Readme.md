@@ -49,9 +49,11 @@ This project demonstrates a practical application of **Unsupervised Machine Lear
 
 ## 🔑 Interpreting Results
 
-The script prints the top words for each found topic. 
-You interpret these words to manually assign a label within the main script.
-Then you verify your model by checking against any one document within the data.
+1. **The Main Script** prints the top words for each found topic. 
+
+2. **The User interprets these words** to manually assign a label within the main script. 
+
+3. **The User Verifies** the model by checking against any one document within the data. 
 
 | Example Topic | Top Words | Assigned Label |
 | :---: | :--- | :--- |
