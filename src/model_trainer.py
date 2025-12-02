@@ -111,6 +111,7 @@ if __name__ == "__main__":
     
     # Show document-topic distribution for a user selectable document number
     doc_topic_distribution = lda.transform(data_vectorized)
+
     print("\n--- Document-Topic Distribution (Select Document by Index) ---")
     # Prompt the user for an index (default to 10 if they hit enter)
     while True:
@@ -129,4 +130,13 @@ if __name__ == "__main__":
     main_topic_prob = doc_topic_distribution[doc_idx, main_topic_idx]
     
     print(f"The model assigns this document primarily to Topic {main_topic_idx + 1} with a weight of {main_topic_prob:.2f}.")
+    
+     # NEW: show top words + normalized probabilities for the selected main topic
+    topic_weights = lda.components_[main_topic_idx]
+    topic_probs = topic_weights / topic_weights.sum()
+    top_indices = topic_weights.argsort()[:-N_TOP_WORDS - 1:-1]
+    print(f"\nTop {N_TOP_WORDS} words for Topic {main_topic_idx + 1} - For interpreting weight (word : probability):")
+    for i in top_indices:
+        print(f"{feature_names[i]} : {topic_probs[i]:.4f}")
+    
     print("---------------------------------------------")

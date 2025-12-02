@@ -1,6 +1,6 @@
 # 🩺  Doc-Analysis-v1
 
-This project demonstrates a practical application of **Unsupervised Machine Learning** to discover underlying themes within a collection of medical abstracts or notes. Using **Latent Dirichlet Allocation (LDA)**, the system automatically identifies topics (like "Oncology" or "Clinical Trials") without requiring any pre-labeled data.
+This project demonstrates a practical application of **Unsupervised Machine Learning** to discover underlying themes within a collection of medical abstracts or notes. Using **Latent Dirichlet Allocation (LDA)**, the system automatically identifies topics (like "Oncology" or "Treatment") without requiring any pre-labeled data.
 
 ---
 
