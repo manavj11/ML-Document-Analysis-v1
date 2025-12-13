@@ -1,13 +1,48 @@
 # doc-analysis-v1/data/medical_corpus.txt
 A randomized, double-blind study evaluated the efficacy of a new beta-blocker drug for patients with chronic heart failure. The cardiac function improved significantly across the treatment group.
-Myocardial infarction, commonly known as a heart attack, occurs when blood flow to the heart muscle is blocked. Immediate angioplasty is often required.
+Myocardial infarction, commonly known as a heart attack, occurs when blood flow to the heart muscle is blocked. Immediate angioplasty is often required to restore flow.
 The physician prescribed aspirin and a statin regimen to lower the patient's cholesterol and risk of secondary cardiovascular events.
+A sudden onset of ventricular fibrillation is a life-threatening arrhythmia that requires immediate defibrillation.
+Long-term hypertension management often involves a combination of lifestyle changes and ACE inhibitor medication.
+A coronary artery bypass graft (CABG) surgery was performed to improve blood supply to the heart muscle.
+Echocardiography revealed severe valvular stenosis requiring urgent surgical repair to prevent further deterioration.
+
 Chemotherapy agents target rapidly dividing cells, which is the hallmark of many types of cancer. This treatment often leads to significant side effects.
-The malignant tumor in the lung was successfully removed during a complex surgical procedure. Follow-up radiation therapy is recommended.
-Early detection of breast cancer through routine mammography screening remains a cornerstone of successful oncology treatment protocols.
+The malignant tumor in the lung was successfully removed during a complex lobectomy procedure. Follow-up radiation therapy is recommended.
+Early detection of breast cancer through routine mammography screening remains a cornerstone of successful oncology protocols.
+Immunotherapy drugs, like checkpoint inhibitors, unleash the body's immune system to attack cancer cells with high specificity.
+Genetic testing confirmed the presence of the BRCA1 mutation, indicating a high lifetime risk for developing ovarian cancer.
+A biopsy specimen showed atypical ductal hyperplasia, necessitating close surveillance and potentially prophylactic measures against malignancy.
+Prostate-specific antigen (PSA) levels are used as a screening tool, though they can result in false positives not related to carcinoma.
+
 Phase 3 clinical trials for the new drug involved thousands of healthy volunteers. The vaccine demonstrated a high safety profile and strong efficacy results.
 The FDA granted accelerated approval to the novel antibody drug after promising interim results from the human trial.
 Researchers are tracking patient outcomes in the long-term follow-up study to assess the sustained effects of the gene therapy.
-The primary symptom of this disease outbreak is a persistent, dry cough and fever, requiring immediate isolation.
+Gene editing techniques, such as CRISPR, are being researched for correcting underlying genetic defects causing congenital diseases.
+A loading dose of the anti-coagulant was administered intravenously before the patient was switched to an oral maintenance dose.
+Pharmacokinetics describes how the body absorbs, distributes, metabolizes, and excretes a therapeutic compound.
+The experimental drug showed promising **in vitro** activity against the target protein, warranting further **in vivo** testing in animal models.
+Double-blind placebo-controlled studies are considered the gold standard for establishing the effectiveness of any new therapeutic intervention.
+
+The primary symptom of this disease outbreak is a persistent, dry cough and fever, requiring immediate isolation and contact tracing.
 Epidemiologists track the spread of contagious disease to implement public health measures and prevent a pandemic.
 The patient tested positive for the pathogen, a gram-negative bacteria, and was started on a broad-spectrum antibiotic regimen.
+Diabetes mellitus type 2 is a chronic metabolic disorder characterized by high blood sugar levels due to insulin resistance.
+The pathology report confirmed a diagnosis of multiple sclerosis, an autoimmune disease affecting the central nervous system.
+Infectious mononucleosis, caused by the Epstein-Barr virus, is common among adolescents and often presents with extreme fatigue.
+Acute appendicitis requires prompt surgical intervention to prevent rupture and subsequent peritonitis, a severe abdominal infection.
+Parkinson's disease is a neurodegenerative disorder that primarily affects the patient's motor system and dopamine production.
+
+The physician stressed the importance of palliative care for managing chronic pain and improving quality of life in end-stage disease.
+Nutritional counseling focused on reducing sodium intake to help control the patient's blood pressure and fluid retention.
+Physical therapy was initiated to improve range of motion and muscle strength following the hip replacement surgery.
+Monitoring vital signs, including blood pressure, heart rate, and oxygen saturation, is a critical nursing function.
+Patient adherence to the prescribed medication schedule is a major challenge in managing complex chronic conditions.
+A thorough differential diagnosis was conducted to rule out various possible causes of the patient's non-specific symptoms.
+Radiological imaging, specifically an MRI scan, provided detailed views of the soft tissue damage in the knee joint.
+Behavioral therapy has proven effective in treating anxiety disorders and depression without the use of psychotropic medication.
+The hospital instituted new infection control measures after an increase in nosocomial (hospital-acquired) infections was noted.
+The medical record noted a family history of premature coronary artery disease, increasing the patient's overall risk profile.
+Vaccination campaigns are crucial for achieving herd immunity against highly communicable viral diseases.
+Fluid resuscitation with saline solution was necessary to stabilize the patient suffering from severe dehydration.
+The surgical team used robotic assistance for the minimally invasive procedure, leading to a faster recovery time.

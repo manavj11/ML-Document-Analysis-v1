@@ -18,7 +18,8 @@ from sklearn.decomposition import LatentDirichletAllocation
 
 
 # --- Configuration ---
-N_TOPICS = 4  # We expect 4 main topics: Cardio, Oncology, Diseases, Treatment
+N_TOPICS = 8  # We expect 8 main topics: Cardio, Oncology, Diseases, Treatment
+# Increased for better topic separation
 N_TOP_WORDS = 4 # Number of words to display per topic
 FILE_PATH = 'data/medical_corpus.txt'
 
@@ -51,14 +52,22 @@ def display_topics(model, feature_names, no_top_words):
         
         # Manually infer a potential label based on keywords
         label = "Unknown"
-        if "disease" in top_words:
-            label = "Patient Concerns" 
-        elif "cancer" in top_words or "heart" in top_words:
+        if "system" in top_words:
+            label = "Healthcare Process" 
+        elif "cancer" in top_words:
             label = "Oncology/Cardiology"
-        elif "drug" in top_words:
-            label = "Pharmacology/Trials"
+        elif "therapeutic" in top_words:
+            label = "Therapeutic Agents"
         elif "therapy" in top_words:
-            label = "Treatment"
+            label = "Treatment/Therapy"
+        elif "screening" in top_words:
+            label = "Screening/Diagnosis"
+        elif "patient" in top_words:
+            label = "Patient Care"
+        elif "surgical" in top_words:
+            label = "Surgical Procedures"
+        elif "longterm" in top_words:
+            label = "Strategy/Long-term"
 
         print(f"Topic {topic_idx + 1} ({label}): {' '.join(top_words)}")
 
@@ -98,7 +107,7 @@ if __name__ == "__main__":
     # - random_state for reproducible results
     lda = LatentDirichletAllocation(
         n_components=N_TOPICS,
-        max_iter=15,
+        max_iter=30, # Increase for better convergence
         learning_method='online',
         random_state=42
     )
