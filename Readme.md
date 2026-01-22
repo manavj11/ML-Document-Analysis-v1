@@ -38,9 +38,10 @@ This project demonstrates a practical application of **Unsupervised Machine Lear
     pip install -r requirements.txt
     ```
 
-2.  **Prepare Data**: Ensure your medical documents are in `data/medical_corpus.txt`, with **one document per line**.
+2.  **Prepare Data**: \
+    Ensure your medical documents are in `data/medical_corpus.txt`, with **one document per line**.
 
-3.  **Run**:
+4.  **Run**:
     ```bash
     python src/model_trainer.py
     ```
@@ -49,11 +50,10 @@ This project demonstrates a practical application of **Unsupervised Machine Lear
 
 ## 🔑 Interpreting Results
 
-1. **The Main Script** prints the top words for each found topic. 
+1. **The Main Script** prints the top words for each found topic.\
+   **The User interprets these words** to manually assign a label within the main script. 
 
-2. **The User interprets these words** to manually assign a label within the main script. 
-
-3. **The User Verifies** the model by checking against any one document within the data. 
+2. **The User Verifies** the model by checking against any one document within the data (based on user input within the console/terminal).
 
 | Example Topic | Top Words | Assigned Label |
 | :---: | :--- | :--- |
